@@ -1,0 +1,18 @@
+
+html{
+  font-family: serif;
+}
+
+body{
+  background: none;
+}
+h1.title{
+  font-family: serif;
+  color: red;
+}
+a::after {
+   content: " (" attr(href) ")"
+ }
+ tr{
+   background: none;
+ }

@@ -1,0 +1,81 @@
+html{
+
+}
+
+body{
+  color: black;
+  background-image: url(immagini/sfondo.jpeg);
+}
+
+h1.title{
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+}
+
+.centro{
+ text-align: center;
+}
+
+img.centrata{
+  display:block;
+  margin:0px auto;
+  text-align:center;
+}
+
+p.didascalia{
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+}
+p.didascalia::first-letter{
+  font-size: 200%
+}
+
+
+
+tr.votiTop{
+  background :  red;
+}
+tr.votiFlop{
+  background :  gray;
+}
+
+tr.title{
+  background: blue;
+  color: yellow ;
+}
+
+footer{
+    position:absolute;
+    bottom:4%;
+    right:5%;
+    font-size: 0.9rem;
+    font-family: cursive;
+}
+img.icona{
+  width: 20pt;
+  height: auto;
+}
+.row::after {
+  content:"";
+  clear:both;
+  display :block;
+ }
+ * { box-sizing: border-box; }
+
+ [class*="col-"] {
+  float:left; padding:1vw; }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
